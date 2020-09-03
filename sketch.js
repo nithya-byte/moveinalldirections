@@ -1,6 +1,6 @@
 var car1,wall;
 function setup() {
-  createCanvas(800,400);
+  createCanvas(800,1000);
   //car1= new car(50,2260,60,"red");
   //car2= new car(150,1522,50,"red");
 wall=createSprite(200,200,50,50);
