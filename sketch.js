@@ -13,19 +13,19 @@ function draw() {
   if(touches.length>0)
   {
    
-    if (touches[0].x>200)
+    if (touches[0].x>wall.x)
     {
       wall.velocityX=2;
     }
-   if (touches[0].x<200)
+   if (touches[0].x<wall.x)
     {
       wall.velocityX=-2;
     }
-    if (touches[0].y<200)
+    if (touches[0].y<wall.y)
     {
       wall.velocityY=-2;
     }
-    if (touches[0].y>200)
+    if (touches[0].y>wall.y)
     {
       wall.velocityY=2;
     }
